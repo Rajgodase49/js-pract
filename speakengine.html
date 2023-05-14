@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spech engine</title>
+</head>
+<body>
+    <h1>the vacinator 5000</h1>
+   <div>
+    <select name="lang" id="lang">
+        <option label="English (United States): Zoe (multi-lingual), enhanced, 22050 Hz, 1.0.2" value="Zoe-Ml">Zoe-Ml, en-us, enhanced, 22050, 1.0.2</option>
+        <option label="Arabic (-001): Maged (multi-lingual), standard, 22050 Hz, 2.0.0" value="Maged-Ml">Maged-Ml, arb-001, standard, 22050, 2.0.0</option>
+        <option label="Arabic (-001): Maged (multi-lingual), enhanced, 22050 Hz, 2.0.1" value="Maged-Ml">Maged-Ml, arb-001, enhanced, 22050, 2.0.1</option>
+
+    </select>
+   </div>
+<div id="rate1">
+    <form action="#"></form>
+    <label for="range">Range</label>
+    <input type="range" min="1" max="10" step="1" id="range"><br>
+
+    <label for="pitch">pitch</label>
+    <input type="range" min="1" max="10" step="1" id="pitch">
+    <br>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+</div> 
+<div>
+    <button id="stop">stop</button>
+    <button id="start">start</button>
+</div>
+</form>
+ <script>
+let button=document.querySelector("button")[0];
+let text=document.querySelector("textarea");
+let text1=text.value
+console.log(text1);
+ </script>
+</body>
+</html>
